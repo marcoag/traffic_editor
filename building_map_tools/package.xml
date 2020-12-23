@@ -7,6 +7,9 @@
   <maintainer email="mquigley@openrobotics.org">Morgan Quigley</maintainer>
   <license>Apache License 2.0</license>
 
+  <test_depend>python3-pytest</test_depend>
+  <test_depend>python3-pytest-runner</test_depend>
+
   <build_depend>building_map_msgs</build_depend>
   <exec_depend>rclpy_rolling</exec_depend>
   <exec_depend>std_msgs_rolling</exec_depend>
